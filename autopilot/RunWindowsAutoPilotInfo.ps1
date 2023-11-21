@@ -59,6 +59,7 @@ Start-Transcript -Path $DirectoryPath\Transscript.log
     [void] $listBox.Items.Add('PERS-STD')
     [void] $listBox.Items.Add('KIOSK')
     [void] $listBox.Items.Add('SHARED')
+    [void] $listBox.Items.Add('PERS-ADM')
 
     $form.Controls.Add($listBox)
 
