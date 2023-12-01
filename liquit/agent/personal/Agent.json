@@ -1,0 +1,26 @@
+{
+	"zone": "https://gemeentewestland.servicesorg.net",
+    "registration": {
+        "type": "Credentials",
+        "username": "local\\register",
+        "password": "gS9?/2l/,x|'pH=Hm&Fb"
+    },
+    "deployment": {
+        "enabled": true,
+        "start": true,
+        "context": "Device",
+        "cancel": true,
+        "triggers": false,
+        "autoStart": {
+            "enabled": true,
+            "deployment": "D-Gemeente-P",
+            "timer": 0
+        }
+    },
+    "login": {
+        "enabled": true,
+        "sso": true,
+        "identitySource": "gemeentewestland.nl",
+        "timeout": 4
+    }
+}
