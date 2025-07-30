@@ -83,7 +83,20 @@
                 {
                 New-Item -Path $ScriptFolder -ItemType "directory"
                 }
+        $ScriptFolder = $DriverSourceDir
 
+        if(Test-Path $ScriptFolder) {} 
+        else    
+                {
+                New-Item -Path $ScriptFolder -ItemType "directory"
+                }
+        $ScriptFolder = $WinPESourceDir
+
+        if(Test-Path $ScriptFolder) {} 
+        else    
+                {
+                New-Item -Path $ScriptFolder -ItemType "directory"
+                }
 #endregion
 
 #region Mount Windows ISO and copy files to $WinSourceDir
