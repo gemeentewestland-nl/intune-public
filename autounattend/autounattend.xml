@@ -111,5 +111,5 @@
             </Reseal>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim:c:/windowssources/install.wim#Windows 10 Pro" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:c:/windowssources/install.wim#Windows 11 Pro" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>
